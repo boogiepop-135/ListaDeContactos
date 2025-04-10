@@ -1,0 +1,110 @@
+/* CreateNewContact.css */
+.create-contact-container {
+    background-color: #f8f9fa; /* Fondo claro para el contenedor */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    padding: 2rem 0; /* Espaciado superior e inferior */
+  }
+  
+  .create-contact-form {
+    background: white; /* Fondo blanco para el formulario */
+    padding: 2rem;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 500px; /* Ancho máximo para que no sea demasiado ancho */
+    margin: 0 auto; /* Centrado horizontal */
+  }
+  
+  .create-contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .create-contact-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, #007bff, #00c6ff); /* Línea decorativa con gradiente */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    z-index: 10;
+  }
+  
+  .form-control {
+    padding-left: 40px !important; /* Espacio para el ícono */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  .form-floating label {
+    color: #666;
+    padding-left: 40px; /* Ajustamos el label para que no se superponga al ícono */
+  }
+  
+  .create-contact-btn {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Botón ocupa todo el ancho */
+  }
+  
+  .create-contact-btn:hover {
+    background: linear-gradient(90deg, #0056b3, #0099cc);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .go-home-btn {
+    background: linear-gradient(90deg, #ff4d4d, #ff8080);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .go-home-btn:hover {
+    background: linear-gradient(90deg, #cc0000, #ff6666);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .alert-danger {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }

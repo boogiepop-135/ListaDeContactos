@@ -1,0 +1,35 @@
+nav.custom-navbar {
+  padding: 0.2rem 1rem;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+nav.custom-navbar .container {
+  padding: 0;
+  min-height: auto;
+}
+
+nav.custom-navbar .navbar-brand {
+  padding: 0;
+  line-height: 1;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+nav.custom-navbar .btn-primary {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+nav.custom-navbar .btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3, #0099cc);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
